@@ -7,6 +7,6 @@ steps{
    }}
     stage('compile'){
     steps{
-        sh 'mvn compile'
+        sh '/opt/apache-maven-3.6.0/bin/mvn compile'
     }}
    }}
